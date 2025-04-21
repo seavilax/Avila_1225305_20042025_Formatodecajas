@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Gimnasio AvilaFit</title>
+    <link rel="stylesheet" href="estilo.css" type="text/css">
+</head>
+<body>
+    <header>
+        <h1>Gimnasio FitZone</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#registro">Registro</a></li>
+            <li><a href="#planes">Planes</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <img src="fotos.img/gimnasio.webp" alt="Gimnasio" class="banner">
+
+    <div class="container" id="registro">
+        <h2>Formulario de Registro</h2>
+        <form action="#" method="POST">
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono">
+
+            <label for="plan">Elegí tu plan:</label>
+            <select id="plan" name="plan" required>
+                <option value="basico">Plan Basico</option>
+                <option value="intermedio">Plan Intermedio</option>
+                <option value="premium">Plan Premium</option>
+            </select>
+
+            <label for="horario">Elegí tu horario preferido:</label>
+            <select id="horario" name="horario" required>
+                <option value="manana">Mañana (6:00 - 10:00)</option>
+                <option value="tarde">Tarde (12:00 - 17:00)</option>
+                <option value="noche">Noche (18:00 - 22:00)</option>
+            </select>
+
+            <input type="submit" value="Registrarme">
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 AvilaFit - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
